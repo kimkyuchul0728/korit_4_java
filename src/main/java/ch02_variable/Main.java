@@ -14,44 +14,44 @@ package ch02_variable;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("안녕하세요, 제 이름은 김규철입니다.");
-//        System.out.println(안녕하세요, 제 이름은 김규철입니다.); -> 오류 발생
-        System.out.println(1);              // 1
-        System.out.println("1");            // 1
-        System.out.println(1 + 2);          // 3
-        System.out.println("1 + 2");        // 1 + 2
-        System.out.println("1" + "2");      // 12
-        System.out.println("1" + 2);        // 12
-
-        // 이상과 같은 방식의 코드 대입을 하드 코딩이라는 표현을 씁니다.
-        // 명령문에 데이터(변수에 대입되지 않은 데이터를 리터럴(literal))를 바로 집어넣는 것
-        // 데이터를 변수에 대입하고, 변수를 통해서 명령을 내리는 것이 권장됨.\
-
-        /*
-            변수(variable) : 데이터를 담는 바구니 -> 이름표를 달아줘야 함.
-            변수 선언 방법 :
-            자료형 변수명 = 데이터;
-         */
-        int scoreEnglish = 100;
-        System.out.println(scoreEnglish);
-
-        String introduction = "안녕하세요. 저는  Java를 배우게 된 김규철입니다.";
-        System.out.println(introduction +  " 앞으로 잘 부탁드리겠습니다.");
-
-        //변수의 의미에 주목해보면 데이터 값이 바뀔 수 있음을 뜻합니다.
-        scoreEnglish = 90;
-        System.out.println(scoreEnglish);
-        // 1. 논리 자료형(boolean) 변수 : 참 / 거짓(true / false)
-        // 자료형 변수명 = 데이터;               변수의 선언 및 초기화
-        boolean checkFlag1 = false;
-        // 변수에 데이터 재대입
-        checkFlag1 = true;
-
-        boolean checkFleg2;         //변수의 선언
-        checkFleg2 = true;          //변수의 초기화
-        checkFleg2 = false;         //변수의 재대입
-
-        // 2. 문자 자료형 변수 char
+//        System.out.println("안녕하세요, 제 이름은 김규철입니다.");
+//      System.out.println(안녕하세요, 제 이름은 김규철입니다.); -> 오류 발생
+//        System.out.println(1);              // 1
+//        System.out.println("1");            // 1
+//        System.out.println(1 + 2);          // 3
+//        System.out.println("1 + 2");        // 1 + 2
+//        System.out.println("1" + "2");      // 12
+//        System.out.println("1" + 2);        // 12
+//
+//        // 이상과 같은 방식의 코드 대입을 하드 코딩이라는 표현을 씁니다.
+//        // 명령문에 데이터(변수에 대입되지 않은 데이터를 리터럴(literal))를 바로 집어넣는 것
+//        // 데이터를 변수에 대입하고, 변수를 통해서 명령을 내리는 것이 권장됨.\
+//
+//        /*
+//            변수(variable) : 데이터를 담는 바구니 -> 이름표를 달아줘야 함.
+//            변수 선언 방법 :
+//            자료형 변수명 = 데이터;
+//         */
+//        int scoreEnglish = 100;
+//        System.out.println(scoreEnglish);
+//
+//        String introduction = "안녕하세요. 저는  Java를 배우게 된 김규철입니다.";
+//        System.out.println(introduction +  " 앞으로 잘 부탁드리겠습니다.");
+//
+//        //변수의 의미에 주목해보면 데이터 값이 바뀔 수 있음을 뜻합니다.
+//        scoreEnglish = 90;
+//        System.out.println(scoreEnglish);
+//        // 1. 논리 자료형(boolean) 변수 : 참 / 거짓(true / false)
+//        // 자료형 변수명 = 데이터;               변수의 선언 및 초기화
+//        boolean checkFlag1 = false;
+//        // 변수에 데이터 재대입
+//        checkFlag1 = true;
+//
+//        boolean checkFleg2;         //변수의 선언
+//        checkFleg2 = true;          //변수의 초기화
+//        checkFleg2 = false;         //변수의 재대입
+//
+//        // 2. 문자 자료형 변수 char
         char name1 = '김';
         char name2 = '규';
         char name3 = '철';
