@@ -23,7 +23,22 @@ public class Main {
         control1.addDevice(led1);
         control1.addDevice(mouse1);
         // System.out.println(control1.checkEmpty());  // 결과값 : 1 -> 확인하고 checkEmpty()를 private처리했습니다.
+//        control1.powerOn();
+//        control1.powerOff();
+
+        Smartphone smartphone1 = new Smartphone();
+        Speaker speaker1 = new Speaker();
+        Tv tv1 = new Tv();
+        control1.addDevice(smartphone1);
+        control1.addDevice(speaker1);
+        control1.addDevice(tv1);
         control1.powerOn();
+        tv1.on();
         control1.powerOff();
+        tv1.off();
+        control1.performSpecificMethod();
+        // tv1의 경우 control의 필드에 들어가 있지 않기 때문에
+        tv1.channelUp();
+
     }
 }
